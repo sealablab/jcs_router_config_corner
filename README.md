@@ -2,3 +2,26 @@
 Johnnys (public) router configuration templates.
 
 Welome to my (public) router configuration template repo
+
+# The Baseline
+Before we continue any further, let me describe the exact hardware/software revisions these templates were created from.
+
+Although we will see these configurations grow in complexity over time, the following presumptions can be made throughout this repo
+
+All running configs were generated from OPNSense 24.01 community edition, running on an official [DEC 2752](https://shop.opnsense.com/product/dec2752-opnsense-rack-security-appliance/)
+
+
+## [Decisio DEC 2752 ](https://shop.opnsense.com/product/dec2752-opnsense-rack-security-appliance/) running [OPNSense](https://docs.opnsense.org/releases/CE_24.7.html#october-23-2024)
+
+Although all of the baseline configurations were generated with the 2752 specifically, you really only need to know the following to follow along
+
+* `igc0` (the rightmost) is dedicated to the **CORE MGMT** subnet
+* `igc1` (next rightost) will be our WAN / uplink port **WAN**
+* `ax0`  (the rightmost SFP+) will be our **LAN** / data-plane
+
+
+
+
+
+
+## Mikrotik [CRS-326](https://mikrotik.com/product/CRS326-24G-2SplusRM) running [SwOS](https://help.mikrotik.com/docs/spaces/SWOS/pages/328415/SwOS)
