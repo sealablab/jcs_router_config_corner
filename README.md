@@ -45,7 +45,7 @@ For reference, you can find a link to my __Factory defaults__ [here](configs/CSS
 # The Baseline config principles
 
 ## OPNSense baseline
-### CORE-MGMT: `igc0` : `10.19.99.1`/`24
+### CORE-MGMT: `igc0` : `10.19.99.1`/`24`
 ### WAN      : `igc1` :  UP (To ISP)
 ### LAN      : `ax0`  : `10.14.40.0`/`24`
 
