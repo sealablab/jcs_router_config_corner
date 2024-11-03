@@ -32,15 +32,14 @@ The **CORE-MGMT** subnet is used exclusively for management of CORE NETWORK infr
 * Your core-network administrators laptop
 
 
-
-
 # Configuration file formats:
 ## OPNSense : [config.xml](https://github.com/mihakralj/opnsense-cli)
 OPNsense maintains its entire configuration in a [single xml file](https://forum.opnsense.org/index.php?topic=18193.0) named `config.xml` 
-For reference, you can find a link to my __Factory defaults__ here:
+For reference, you can find a link to my __Factory defaults__ [here](configs/OPNSense-config-factory.xml)
+
 
 
 ## SwOS ; `css326q_2.17.swb`
 **SwOS** configuration files appear to be plaintext
-For reference, you can find a link to my __Factory defaults__ here:
+For reference, you can find a link to my __Factory defaults__ [here](configs/CSS326Q-config-factory.txt)
 
