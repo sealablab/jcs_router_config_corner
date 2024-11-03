@@ -3,7 +3,6 @@ Johnnys (public) router configuration templates.
 
 Welome to my (public) router configuration template repo
 
-# The Baseline
 Before we continue any further, let me describe the exact hardware/software revisions these templates were created from.
 
 Although we will see these configurations grow in complexity over time, the following presumptions can be made throughout this repo
@@ -42,4 +41,13 @@ For reference, you can find a link to my __Factory defaults__ [here](configs/OPN
 ## SwOS ; `css326q_2.17.swb`
 **SwOS** configuration files appear to be plaintext
 For reference, you can find a link to my __Factory defaults__ [here](configs/CSS326Q-config-factory.txt)
+
+# The Baseline config principles
+
+## OPNSense baseline
+### CORE-MGMT: `igc0` : `10.19.99.1`/`24
+### WAN      : `igc1` :  UP (To ISP)
+### LAN      : `ax0`  : `10.14.40.0`/`24`
+
+### The VLANS
 
