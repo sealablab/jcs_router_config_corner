@@ -20,8 +20,17 @@ Although all of the baseline configurations were generated with the 2752 specifi
 * `ax0`  (the rightmost SFP+) will be our **LAN** / data-plane
 
 
-
-
-
-
 ## Mikrotik [CRS-326](https://mikrotik.com/product/CRS326-24G-2SplusRM) running [SwOS](https://help.mikrotik.com/docs/spaces/SWOS/pages/328415/SwOS)
+
+* `MGMT` (the dedicated MGMT port) connects to the **CORE MGMT** subnet.
+* `SFP+10` will be the TRUNK port that connects directly to the OPNSense.`ax0`
+
+## CORE-MGMT
+The **CORE-MGMT** subnet is used exclusively for management of CORE NETWORK infrastructure. You can use any old ethernet switch for it. Attached should be:
+* CRS-326.`MGMT` 
+* OPNSense.`igc0` (OPT)
+* Your core-network administrators laptop
+
+
+
+
