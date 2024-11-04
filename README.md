@@ -42,12 +42,11 @@ For reference, you can find a link to my __Factory defaults__ [here](configs/OPN
 **SwOS** configuration files appear to be plaintext
 For reference, you can find a link to my __Factory defaults__ [here](configs/CSS326Q-config-factory.txt)
 
-# The Baseline config principles
+# The Baseline config 
 
-## OPNSense baseline
-### CORE-MGMT: `igc0` : `10.19.99.1`/`24`
-### WAN      : `igc1` :  UP (To ISP)
-### LAN      : `ax0`  : `10.14.40.0`/`24`
+*** OPNsense.localdomain: OPNsense 24.10 ***
 
-### The VLANS
+ LAN (ax0)       -> v4: 10.40.0.1/24
+ OPT1 (igc0)     -> v4: 10.19.99.1/24
+ WAN (igc1)      -> 
 
